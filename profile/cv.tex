@@ -1,0 +1,203 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Yaliang Wang}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {robot, balance, locomotion},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={7.0in, 10in},
+  left=0.7in,
+  top=0.8in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  925 Dempster Apt. 2W \\
+  Evanston, IL, 60201 \\
+  United States 
+  
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & 1 (224) 420 - 2689 \\
+    Email: & \href{mailto:yaliang.wang@yaliang-wang.tk}{yaliang.wang@yaliang-wang.tk} \\
+    Homepage: & \href{http://cs.yaliang-wang.tk}{http://cs.yaliang-wang.tk} \\
+  \end{tabular}
+\end{minipage}
+
+
+%\section*{Personal}
+%
+%\begin{itemize}
+%\item Born on April 30, 1990. People's Republic of China Citizen.
+%\end{itemize}
+
+%\section*{Objectives}
+%
+%\begin{itemize}
+%\item Humanoid Balance, Robot Learning, Mechanically Adjustable Compliant Design, Robotics.
+%\end{itemize}
+
+\section*{Education}
+
+\begin{itemize}
+  \item M.S. Computer Science, Department of Electrical Engineering and Computer Science, Northwestern University, {\it 2014 - present}.
+  \item B.E. Automation(Control), Department of Control Science and Engineering, Zhejiang University, {\it 2009 - 2013}.
+\end{itemize}
+
+\section*{Project}
+
+\begin{itemize}
+	\item Detection, Tracking and Classification of Particles in IV Bags,
+	{\it December, 2014 - present}.
+	\item Reinforcement Learning Based Humanoid Robot Stable Walking Simulation,
+	{\it December, 2014 - present}. 
+	%\item Online to Offline Social Networking Application Development,
+	%{\it December, 2014 - present}.
+	\item Balance Maintenance for Humanoid Robots Subjected to External Disturbance, 
+    {\it December, 2012 - June, 2014}.
+    \item Radio-frequency Identification Based On-line Intelligent Warehouse Management System,
+    {\it October, 2012 - December, 2012}.
+    \item Design and Application of Control Board for Roboactor TT313 with ARM7 Embedded Microprocessor,
+    {\it September, 2012 - October, 2012}.
+    \item Hand Motion Recognition Based on sEMG Acquisition and Processing,
+    {\it June, 2011 - May, 2012}.
+%    \item Design of An FPGA-based Double-precision Floating-point Matrix Arithmetic Unit,
+%    {\it May, 2011 - September, 2011}.
+\end{itemize}
+
+\section*{Publications}
+
+%\subsection*{Journal Articles}
+%
+%\begin{itemize}
+%\item A General Mathematical Theory of Depreciation, 1929, {\it Journal
+%    of The American Statistical Association} 20, 340--353.
+%\item Differential Equations Subject to Error, 1927, {\it Journal of The
+%    American Statistical Association}.
+%\item Applications of the Theory of Error to the Interpretation of
+%  Trends (with H. Working), 1929, {\it Journal of the American
+%    Statistical Association}.
+%\end{itemize}
+
+\subsection*{Conference Papers}
+\begin{itemize}
+\item \textbf{Yaliang Wang}, Rong Xiong, Qiuguo Zhu, and Jian Chu, 
+  "Compliance Control for Standing Maintenance of Humanoid Robots under Unknown External Disturbances",
+  {\it 2014 IEEE International Conference on Robotics and Automation (ICRA 2014)}, pp. 2297-2304
+  Hong Kong, China, May 31 - June 5, 2014.
+\item \textbf{Yaliang Wang}, Qiuguo Zhu, Rong Xiong, and Jian Chu, 
+  "Standing Balance Control for Position Control-Based Humanoid Robot",
+  {\it 3rd IFAC International Conference on Intelligent Control and Automation Science (IFAC ICONS 2013)}, pp.429-436, Chengdu, China, September 2-4, 2013.
+\end{itemize}
+
+\subsection*{Journal Article}
+\begin{itemize}
+\item Chao Li, Rong Xiong, Qiuguo Zhu, Jun Wu, \textbf{Yaliang Wang}, Yiming Huang, "Push recovery for the standing under-actuated bipedal robot using the hip strategy", {\it Journal of Zhejiang University-SCIENCE}, 2014.
+\end{itemize}
+
+\section*{Awards}
+
+\begin{itemize}
+  \item Best Student Application Paper Award, IFAC ICONS 2013, {\it  2013}.
+  \item Zhejiang University 2013 Session Excellent Bachelor Thesis Award, Zhejiang University, {\it  2013}.
+\end{itemize}
+
+\section*{Exchange Experience}
+
+\begin{itemize}
+  \item Vancouver Summer Business Program, 
+   SAUDER School of Business, The University of British Columbia, {\it  July, 2012 - August, 2012}.
+\end{itemize}
+
+%\section*{Skills}
+%\begin{itemize}
+% \item Proficient in Matlab.
+% \item Familiar with C/C++, Java, VHDL, PASCAL
+%\end{itemize}
+
+%\bigskip
+
+
+
+% Footer
+%\begin{center}
+%  \begin{footnotesize}
+%    %Last updated: \today \\
+%    %\href{\footerlink}{\texttt{\footerlink}}
+%  \end{footnotesize}
+%\end{center}
+
+\end{document}
