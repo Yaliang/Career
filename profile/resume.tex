@@ -13,6 +13,8 @@
 
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{color}
+\usepackage{multicol}
 
 % Comment the following lines to use the default Computer Modern font
 % instead of the Palatino font provided by the mathpazo package.
@@ -51,8 +53,9 @@
 
 % Custom section fonts
 \usepackage{sectsty}
-\sectionfont{\rmfamily\mdseries\Large}
-\subsectionfont{\rmfamily\mdseries\itshape\large}
+\definecolor{Gray}{rgb}{0.69,0.69,0.69}
+\sectionfont{\rmfamily\bfseries\Large\color{Gray}}
+\subsectionfont{\rmfamily\mdseries\large}
 
 % Other possible font commands include:
 % \ttfamily for teletype,
@@ -92,8 +95,8 @@
 \begin{minipage}{0.45\linewidth}
   \begin{tabular}{ll}
     Phone: & 1 (224) 420 - 2689 \\
-    Email: & \href{mailto:yaliang.wang@yaliang-wang.tk}{yaliang.wang@yaliang-wang.tk} \\
-    Homepage: & \href{http://cs.yaliang-wang.tk}{http://cs.yaliang-wang.tk} \\
+    Email: & \href{mailto:yaliangwang2015@u.northwestern.edu}{yaliangwang2015@u.northwestern.edu} \\
+    Website: & \href{http://career.yaliang-wang.tk}{http://career.yaliang-wang.tk} \\
   \end{tabular}
 \end{minipage}
 
@@ -119,53 +122,48 @@
 
 \section*{Project}
 
+\subsection*{Mobile Management and Development}
+\hspace{0.1in} \textbf{Product Manager and Software Developer}, Social Networking Application, {\it December, 2014 - March, 2015}
+\vspace{0.05in}
+
+\hspace{0.2in} Hybrid App Builds on HTML5, jQuery, PhoneGap\texttrademark Build \& Parse.com .
+	
+
+\subsection*{Computer Vision}
 \begin{itemize}
-	\item Detection, Tracking and Classification of Particles in IV Bags,
+	\item Detection, Tracking of Particles and Bubbles in IV Bags,
 	{\it December, 2014 - present}.
-	\item Reinforcement Learning Based Humanoid Robot Stable Walking Simulation,
-	{\it December, 2014 - present}. 
-	%\item Online to Offline Social Networking Application Development,
-	%{\it December, 2014 - present}.
-	\item Balance Maintenance for Humanoid Robots Subjected to External Disturbance, 
-    {\it December, 2012 - June, 2014}.
-    \item Radio-frequency Identification Based On-line Intelligent Warehouse Management System,
-    {\it October, 2012 - December, 2012}.
-    \item Design and Application of Control Board for Roboactor TT313 with ARM7 Embedded Microprocessor,
-    {\it September, 2012 - October, 2012}.
-    \item Hand Motion Recognition Based on sEMG Acquisition and Processing,
-    {\it June, 2011 - May, 2012}.
-%    \item Design of An FPGA-based Double-precision Floating-point Matrix Arithmetic Unit,
-%    {\it May, 2011 - September, 2011}.
+
+	
 \end{itemize}
+\subsection*{Machine Learning}
+\begin{multicols}{2}
+\hspace{0.1in}Handwritten Digit Recognition 
+\vspace{0.05in}
 
-\section*{Publications}
+\hspace{0.2in} {\it December, 2014 - March, 2015}
+\vspace{0.05in}
 
-%\subsection*{Journal Articles}
-%
-%\begin{itemize}
-%\item A General Mathematical Theory of Depreciation, 1929, {\it Journal
-%    of The American Statistical Association} 20, 340--353.
-%\item Differential Equations Subject to Error, 1927, {\it Journal of The
-%    American Statistical Association}.
-%\item Applications of the Theory of Error to the Interpretation of
-%  Trends (with H. Working), 1929, {\it Journal of the American
-%    Statistical Association}.
-%\end{itemize}
+\hspace{0.2in} 2-Layer Neural Network, 1000 hidden neurons
+\vspace{0.05in}
 
-\subsection*{Conference Papers}
+\hspace{0.2in} MNIST Dataset, 60k for training, 10k for testing
+\vspace{0.05in}
+
+\hspace{0.2in} Error Rate: 3.27 \% on testing
+\vspace{0.05in}
+
+\hspace{0.2in} \href{https://github.com/Yaliang/Handwritten}{\color[rgb]{0.2, 0.7, 0.7} Github} \hspace{0.1in} \href{https://drive.google.com/file/d/0B0flKXz1pWAcb2RIVU5SbUd0dkU/view}{\color[rgb]{0.2, 0.7, 0.7} Video(3 mins)}
+
+\columnbreak
+Reinforcement Learning in Bipedal Walking Simulation\vspace{0.05in}
+
+\hspace{0.1in} {\it December, 2014 - March, 2015}
+\end{multicols}
+
+\subsection*{Control}
 \begin{itemize}
-\item \textbf{Yaliang Wang}, Rong Xiong, Qiuguo Zhu, and Jian Chu, 
-  "Compliance Control for Standing Maintenance of Humanoid Robots under Unknown External Disturbances",
-  {\it 2014 IEEE International Conference on Robotics and Automation (ICRA 2014)}, pp. 2297-2304
-  Hong Kong, China, May 31 - June 5, 2014.
-\item \textbf{Yaliang Wang}, Qiuguo Zhu, Rong Xiong, and Jian Chu, 
-  "Standing Balance Control for Position Control-Based Humanoid Robot",
-  {\it 3rd IFAC International Conference on Intelligent Control and Automation Science (IFAC ICONS 2013)}, pp.429-436, Chengdu, China, September 2-4, 2013.
-\end{itemize}
-
-\subsection*{Journal Article}
-\begin{itemize}
-\item Chao Li, Rong Xiong, Qiuguo Zhu, Jun Wu, \textbf{Yaliang Wang}, Yiming Huang, "Push recovery for the standing under-actuated bipedal robot using the hip strategy", {\it Journal of Zhejiang University-SCIENCE}, 2014.
+	\item Balance Maintenance for Humanoid Robots Subjected to External Disturbance, {\it December, 2012 - June, 2014}.
 \end{itemize}
 
 \section*{Awards}
@@ -174,6 +172,21 @@
   \item Best Student Application Paper Award, IFAC ICONS 2013, {\it  2013}.
   \item Zhejiang University 2013 Session Excellent Bachelor Thesis Award, Zhejiang University, {\it  2013}.
 \end{itemize}
+
+\section*{Publications}
+
+\begin{itemize}
+\item \textbf{Yaliang Wang}, Rong Xiong, Qiuguo Zhu, and Jian Chu, 
+  "Compliance Control for Standing Maintenance of Humanoid Robots under Unknown External Disturbances",
+  {\it 2014 IEEE International Conference on Robotics and Automation (ICRA 2014)}, pp. 2297-2304
+  Hong Kong, China, May 31 - June 5, 2014.
+\item \textbf{Yaliang Wang}, Qiuguo Zhu, Rong Xiong, and Jian Chu, 
+  "Standing Balance Control for Position Control-Based Humanoid Robot",
+  {\it 3rd IFAC International Conference on Intelligent Control and Automation Science (IFAC ICONS 2013)}, pp.429-436, Chengdu, China, September 2-4, 2013.
+\item Chao Li, Rong Xiong, Qiuguo Zhu, Jun Wu, \textbf{Yaliang Wang}, Yiming Huang, "Push recovery for the standing under-actuated bipedal robot using the hip strategy", {\it Journal of Zhejiang University-SCIENCE}, 2014.
+\end{itemize}
+
+
 
 \section*{Exchange Experience}
 
