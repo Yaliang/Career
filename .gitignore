@@ -42,5 +42,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Files from tex
+.tex
+.aux
+.log
+.out
+.gz
+
+
 # Private data
 Records/
