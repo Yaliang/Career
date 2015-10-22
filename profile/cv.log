@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2014.12.30)  14 OCT 2015 22:11
+This is XeTeX, Version 3.1415926-2.4-0.9998 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2014.12.30)  14 OCT 2015 22:13
 entering extended mode
-**resume.tex
-(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\resume.tex
+**cv.tex
+(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\cv.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -291,7 +291,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen127
 \titlewidthfirst=\dimen128
 )
-(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\resume.aux)
+(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\cv.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
 LaTeX Font Info:    ... okay on input line 91.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
@@ -330,8 +330,8 @@ LaTeX Info: Redefining \ref on input line 91.
 LaTeX Info: Redefining \pageref on input line 91.
 LaTeX Info: Redefining \nameref on input line 91.
 
-(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\resume.out)
-(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\resume.out)
+(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\cv.out)
+(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\cv.out)
 \@outlinefile=\write3
 
 *geometry* detected driver: pdftex
@@ -442,24 +442,27 @@ Requested font "pplri9d" at 8.0pt
 Missing character: There is no 。 in font pplr9d!
 Requested font "pplr9d" at 6.0pt
  -> pplr9d
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
  [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <8> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 241.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
 
-(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 239.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
+(C:\Users\Yaliang\Documents\GitHub\Career-CS\profile\cv.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 241.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
  ) 
 Here is how much of TeX's memory you used:
- 8925 strings out of 429035
- 124929 string characters out of 3167908
+ 8926 strings out of 429035
+ 124887 string characters out of 3167908
  196015 words of memory out of 3000000
- 12146 multiletter control sequences out of 15000+200000
+ 12147 multiletter control sequences out of 15000+200000
  20308 words of font info for 38 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
- 29i,8n,42p,352b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,42p,361b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on resume.pdf (1 page).
+Output written on cv.pdf (2 pages).
